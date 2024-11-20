@@ -1,3 +1,6 @@
 print("Введите текст:")
 text = str(input())
 print(text.upper())
+#print(text)
+without_a = text.replace('а', '') 
+print(without_a)
